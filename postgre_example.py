@@ -2,7 +2,7 @@ import psycopg2
 
 def create_table():
     #connect a database; pass the name of the database
-    conn=psycopg2.connect("dbname='database1' user='postgres' password='nyars150' host='localhost' port='5432'")
+    conn=psycopg2.connect("dbname='database1' user='postgres' password='YOUR PASSWORD' host='localhost' port='5432'")
  
     #create a cursor obj
     cur=conn.cursor()
